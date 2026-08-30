@@ -82,7 +82,7 @@ export const projectsData: Project[] = [
     category: "java",
     categoryLabel: "Java & Desktop",
     techStack: ["Java", "MySQL", "OOP Design", "Java Swing / AWT", "Event Handling", "Algorithms"],
-    githubUrl: "https://github.com/evany2k/java-snake-game",
+    githubUrl: null,
     featured: true,
     date: "2025",
     highlights: [
