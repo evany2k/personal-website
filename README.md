@@ -24,7 +24,7 @@ Key sections:
 - **Frontend**: React 19, TypeScript, Tailwind CSS v4, Lucide Icons
 - **AI / LLM**: Vercel AI SDK, Google Gemini API, OpenRouter
 - **Database**: Supabase (PostgreSQL) for asynchronous chat logs
-- **Deployment**: Vercel
+- **Deployment**: Vercel (Includes Vercel Analytics tracking)
 
 ---
 

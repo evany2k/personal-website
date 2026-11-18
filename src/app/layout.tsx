@@ -6,6 +6,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { siteConfig } from "@/data/siteConfig";
+import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -61,6 +62,7 @@ export default function RootLayout({
 
       <body className="relative overflow-x-hidden min-h-full flex flex-col bg-[#F9F8F6] text-stone-800">
 
+
         {/* Subtle background decoration (Fixed to viewport so it never adds page scroll height) */}
         <div className="fixed inset-0 overflow-hidden pointer-events-none -z-10" aria-hidden="true">
           <div className="absolute -top-24 -right-24 w-[420px] h-[420px] rounded-full bg-emerald-900/10 blur-3xl"></div>
@@ -70,6 +72,7 @@ export default function RootLayout({
         <Navbar />
 
         {children}
+        <Analytics />
 
         <Footer />
 

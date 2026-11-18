@@ -13,6 +13,7 @@
     "@ai-sdk/react": "^4.0.69",
     "@openrouter/ai-sdk-provider": "^3.0.0",
     "@supabase/supabase-js": "^2.112.3",
+    "@vercel/analytics": "^2.0.1",
     "ai": "^7.0.66",
     "lucide-react": "^1.14.0",
     "next": "16.2.4",
